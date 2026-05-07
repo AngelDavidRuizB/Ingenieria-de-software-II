@@ -67,12 +67,4 @@ console.log('\nSon iguales?', TOKEN === tokenManipulado);
 console.log('Conclusion: la firma del token manipulado ya NO coincide con la firma del servidor.');
 console.log('El servidor rechazara este token aunque el payload parezca valido.');
 
-// -----------------------------------------------
-// Preguntas para responder en el cuaderno
-// -----------------------------------------------
-console.log('\n=== PREGUNTAS DEL LABORATORIO ===\n');
-console.log('1. Que informacion viaja en el Header?');
-console.log('2. Los datos del Payload estan cifrados o solo codificados en Base64?');
-console.log('3. Por que NO se debe guardar la contrasena en el payload?');
-console.log('4. Que pasa si alguien roba el token? Como se mitiga ese riesgo?');
-console.log('5. Que diferencia hay entre Base64 (codificacion) y AES/RSA (cifrado)?');
+
